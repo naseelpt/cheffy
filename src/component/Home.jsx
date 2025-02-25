@@ -49,7 +49,7 @@ function Home() {
 
           <div className='mt-16'>
 
-            <div className='bg-white w-full h-[500px] flex items-center justify-center p-5'>
+            <div className='bg-white md:w-full  h-[500px] flex items-center justify-center md:p-5 p-10'>
 
 
               <button onClick={()=>minus()} className='outline p-3 shadow-2xl hover:transform hover:scale-110 duration-500'><FontAwesomeIcon icon={faLessThan} style={{ color: "#0c0d0d", }} /></button>

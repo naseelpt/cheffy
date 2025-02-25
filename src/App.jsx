@@ -17,7 +17,6 @@ function App() {
   return (
     <div className='bg-blue-300 md:pt-16 '>
    
-    {/* <div className='bg-blue-300 w-screen  '> */}
     
          <Nav/>
          <Header/>
@@ -31,8 +30,8 @@ function App() {
     
          </Routes>
          <Footer/>
-         
-    {/* </div> */}
+       
+    
   
     </div>
   )
